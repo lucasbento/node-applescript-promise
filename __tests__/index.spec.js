@@ -5,7 +5,7 @@ it('should execute file returning a promise', async () => {
   const fixturePath = `${__dirname}/../fixtures/snippetWithArgument.applescript`;
   const arg = 'should print this string';
 
-  const response = await applescript.execFile(fixturePath, [ arg ]);
+  const response = await applescript.execFile(fixturePath, [arg]);
 
   expect(response).toBe(arg);
 });

@@ -2,16 +2,12 @@ import 'babel-polyfill';
 
 import applescript from 'applescript';
 
-const exec = (type) => (script, args) => {
-  if (!args) {
-    args = [];
-  }
-
+const exec = type => (script, args = []) => {
   let functionToCall = applescript.execFile;
-  let functionParams = [ script, args ];
+  let functionParams = [script, args];
   if (type === 'string') {
     functionToCall = applescript.execString;
-    functionParams = [ script ];
+    functionParams = [script];
   }
 
   return new Promise((resolve, reject) =>
@@ -21,7 +17,7 @@ const exec = (type) => (script, args) => {
       }
 
       return resolve(response);
-    })
+    }),
   );
 };
 
