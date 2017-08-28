@@ -1,0 +1,8 @@
+# Build files
+dist
+
+# WebStorm
+.idea
+
+# yarn
+node_modules

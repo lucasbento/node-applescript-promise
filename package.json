@@ -1,0 +1,36 @@
+{
+  "name": "applescript-promise",
+  "description": "Easily execute arbitrary AppleScript code on OS X through NodeJS with Promises.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Lucas Bento",
+    "email": "lucas.bsilva@outlook.com",
+    "url": "https://github.com/lucasbento"
+  },
+  "dependencies": {
+    "applescript": "lucasbento/node-applescript",
+    "babel-polyfill": "^6.20.0",
+    "jest": "^20.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-jest": "^19.0.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "fs-extra": "^4.0.1"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run clear && babel src --out-dir dist",
+    "clear": "rm -rf ./dist",
+    "lint": "eslint src __tests__/*",
+    "test": "jest",
+    "watch": "babel -w -d ./dist src"
+  }
+}
