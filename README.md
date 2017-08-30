@@ -1,6 +1,6 @@
 # node-applescript-promise
 
-A high-level way to execute AppleScript code through NodeJS, and retrieve
+A high-level way to execute AppleScript code through NodeJS and retrieve
 the result as a native JavaScript object. Underneath the hood, this
 module is just a simple wrapper around the OS X `osascript` command.
 
@@ -53,4 +53,5 @@ License
 -------
 
 The `node-applescript-promise` module is licensed under the MIT license.
+
 This module is a merely wrapper over [node-applescript](https://github.com/TooTallNate/node-applescript/).
