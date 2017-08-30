@@ -1,7 +1,7 @@
 {
   "name": "applescript-promise",
   "description": "Easily execute arbitrary AppleScript code on OS X through NodeJS with Promises.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": {
     "name": "Lucas Bento",
     "email": "lucas.bsilva@outlook.com",
@@ -10,8 +10,7 @@
   "bugs": "https://github.com/lucasbento/node-applescript-promise/issues",
   "dependencies": {
     "applescript": "lucasbento/node-applescript",
-    "babel-polyfill": "^6.20.0",
-    "jest": "^20.0.4"
+    "babel-polyfill": "^6.20.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.0",
@@ -23,18 +22,19 @@
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^14.1.0",
     "eslint-plugin-import": "^2.2.0",
-    "fs-extra": "^4.0.1"
+    "fs-extra": "^4.0.1",
+    "jest": "^20.0.4"
   },
   "homepage": "https://github.com/lucasbento/node-applescript-promise#readme",
   "keywords": [
     "apple",
     "applescript",
     "es6",
+    "mac",
     "node",
     "osascript",
-    "promise",
-    "mac",
-    "osx"
+    "osx",
+    "promise"
   ],
   "license": "MIT",
   "main": "dist/index.js",
