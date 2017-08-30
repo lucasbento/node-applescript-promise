@@ -1,7 +1,7 @@
 {
   "name": "applescript-promise",
   "description": "Easily execute arbitrary AppleScript code on OS X through NodeJS with Promises.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Lucas Bento",
     "email": "lucas.bsilva@outlook.com",
@@ -32,7 +32,9 @@
     "es6",
     "node",
     "osascript",
-    "promise"
+    "promise",
+    "mac",
+    "osx"
   ],
   "license": "MIT",
   "main": "dist/index.js",
