@@ -1,4 +1,4 @@
-# node-applescript-promise
+# node-applescript-promise ![](https://api.travis-ci.org/lucasbento/node-applescript-promise.svg?branch=master)
 
 A high-level way to execute AppleScript code through NodeJS and retrieve
 the result as a native JavaScript object. Underneath the hood, this
