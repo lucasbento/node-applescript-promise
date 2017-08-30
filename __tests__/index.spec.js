@@ -10,7 +10,7 @@ it('should execute file returning a promise', async () => {
   expect(response).toBe(arg);
 });
 
-it('should execute file returning a promise', async () => {
+it('should execute string returning a promise', async () => {
   const fixturePath = `${__dirname}/../fixtures/snippet.applescript`;
 
   const script = await fs.readFile(fixturePath, 'utf8');

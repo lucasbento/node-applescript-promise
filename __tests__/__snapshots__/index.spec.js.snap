@@ -1,3 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should execute file returning a promise 1`] = `"this is snippet without argument"`;
+exports[`should execute string returning a promise 1`] = `"this is snippet without argument"`;
